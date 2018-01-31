@@ -1,0 +1,13 @@
+Alexandra Montgomery
+PA3 y86 Emulator
+
+FILES: y86emul.c, y86dis.c, y86emul.h, y86dis.h, makefile, prog1.y86.txt, prog2.y86.txt
+
+The program runs as specified in the assignment's program specification.
+It also has all the components mentioned in the program specification and
+hence it successfully does the job. The implementation utilizes an array of
+pointers instead of multiple switch statements. A Makefile has also been
+provided in the submission which will simply make the executables for the user
+and then the user can use the y86 Emulator and Disassembler as under:
+y86emul <y86 input file>
+y86dis <y86 input file>
